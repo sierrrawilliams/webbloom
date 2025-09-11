@@ -82,5 +82,96 @@
 }
 
 /* about.html */
-.about-container {
+.about {
+    background-image: url(../images/about-image.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.about .title {
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5%;
+    font-style: italic;
+    font-weight: 700;
+}
+.about .info-container {
+    background-color: #28323e;
+    padding: 100px 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+.about .section {
+    margin-bottom: 50px;
+    color: #fff;
+}
+.about .section .info-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid #fff;
+}
+.about .section .info {
+    line-height: 30px;
+    font-weight: 300;
+}
+.about .section .beliefs-list {
+    display: grid;
+    grid-template-columns:  auto auto;
+}
+.about .section .beliefs-list li {
+    line-height: 30px;
+    list-style: none;
+    font-size: 18px;
+}
+.about .section .beliefs-list i {
+    display: list-item;
+    font-size: 50px;
+    list-style: none;
+    margin-right: 20px;
+}
+.about .section .beliefs-list li span {
+    display: list-item;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.about .section .core-values-item {
+    line-height: 30px;
+    margin-left: 20px;
+}
+.about .section:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.about .section .btn-primary {
+    background: #d45c8c;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.about .section .btn-primary:hover {
+    transform: translateY(-1px);
+    background-color: #dc84ac;
+}
+.about .section .btn-primary a {
+    text-decoration: none;
+    color: #fff;
+}
+.about .section .btn-secondary {
+    background: #dc84ac;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.about .section .btn-secondary:hover {
+    transform: translateY(-1px);
+    background-color: #d45c8c;
+}
+.about .section .btn-secondary a {
+    text-decoration: none;
+    color: #fff;
 }
